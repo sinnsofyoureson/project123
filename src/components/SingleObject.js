@@ -108,19 +108,19 @@ const SingleObject = ({ showObjectInfo, onClick, id, type, address, client, cont
 )
 
 SingleObject.propTypes = {
-    showInfo: PropTypes.func.isRequired,
-    onClick: PropTypes.func.isRequired,
-    id: PropTypes.string.isRequired,
-    type: PropTypes.string.isRequired,
-    address: PropTypes.string.isRequired,
-    client: PropTypes.string.isRequired,
-    contract: PropTypes.string.isRequired,
+    showInfo: PropTypes.func,
+    onClick: PropTypes.func,
+    id: PropTypes.string,
+    type: PropTypes.string,
+    address: PropTypes.string,
+    client: PropTypes.string,
+    contract: PropTypes.string,
     services: PropTypes.string,
-    status: PropTypes.string.isRequired,
-    date: PropTypes.string.isRequired,
+    status: PropTypes.string,
+    date: PropTypes.string,
     expiration: PropTypes.string,
-    active: PropTypes.bool.isRequired,
-    shown: PropTypes.bool.isRequired
+    active: PropTypes.bool,
+    shown: PropTypes.bool
 }
 
 export default SingleObject

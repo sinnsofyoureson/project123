@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ClientsList component matches the snapshot 1`] = `
+<ul
+  style={
+    Object {
+      "background": "#080808",
+      "borderRadius": "8px",
+      "boxShadow": "0 8px 21px #000",
+      "margin": "34px",
+      "maxHeight": "65vh",
+      "overflowY": "scroll",
+      "padding": "0",
+      "width": "400px",
+    }
+  }
+/>
+`;

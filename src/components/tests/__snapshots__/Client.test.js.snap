@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Client component matches the snapshot 1`] = `
+<li
+  style={
+    Object {
+      "display": "none",
+    }
+  }
+>
+  <div
+    className="sc-bdVaJa bwzQPy"
+  >
+    <div
+      className="sc-htpNat kTHLBp"
+    >
+      <p
+        className="sc-bwzfXH gtBSna"
+      >
+        ФИО:
+      </p>
+      <p>
+         
+         
+      </p>
+    </div>
+    <div
+      className="sc-htpNat kTHLBp"
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    >
+      <p
+        className="sc-bwzfXH gtBSna"
+      >
+        телефон: 
+      </p>
+      <p />
+    </div>
+    <div
+      className="sc-htpNat kTHLBp"
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    >
+      <p
+        className="sc-bwzfXH gtBSna"
+      >
+        email: 
+      </p>
+      <p />
+    </div>
+    <div
+      className="sc-htpNat kTHLBp"
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    >
+      <p
+        className="sc-bwzfXH gtBSna"
+      >
+        город: 
+      </p>
+      <p />
+    </div>
+    <div
+      className="sc-htpNat kTHLBp"
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    >
+      <p
+        className="sc-bwzfXH gtBSna"
+      >
+        информация:
+      </p>
+      <p />
+    </div>
+    <div
+      className="sc-htpNat kTHLBp"
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    >
+      <p
+        className="sc-bwzfXH gtBSna"
+      >
+        список объектов: 
+      </p>
+      <p />
+    </div>
+    <div
+      style={
+        Object {
+          "display": "flex",
+          "justifyContent": "flex-end",
+        }
+      }
+    >
+      <button
+        className="sc-bxivhb cOpcuA"
+        style={
+          Object {
+            "display": "none",
+          }
+        }
+      >
+        Update!
+      </button>
+      <button
+        className="sc-bxivhb cOpcuA"
+        style={
+          Object {
+            "display": "none",
+          }
+        }
+      >
+        Delete!
+      </button>
+    </div>
+  </div>
+</li>
+`;

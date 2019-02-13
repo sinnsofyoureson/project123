@@ -1,11 +1,10 @@
 import { createStore } from 'redux';
 import crmApp from './reducers/reducers';
-import uuid from 'uuid';
 
 const initialState = {
     clients: [
       {
-        id: uuid.v4(),
+        id: '000',
         name: 'Ринат',
         middlename: 'Юрьевич',
         surname: 'Москвин',
@@ -18,7 +17,7 @@ const initialState = {
         shown: false
       },
       {
-        id: uuid.v4(),
+        id: '001',
         name: 'Tom',
         middlename: '',
         surname: 'Major',
@@ -31,7 +30,7 @@ const initialState = {
         shown: false
       },
       {
-        id: uuid.v4(),
+        id: '002',
         name: 'Гавриил',
         middlename: 'Самуилович',
         surname: 'Гайзенберг',
@@ -44,7 +43,7 @@ const initialState = {
         shown: false
       },
       {
-        id: uuid.v4(),
+        id: '003',
         name: 'Тимофей',
         middlename: 'Богданович',
         surname: 'Макаров',
@@ -57,7 +56,7 @@ const initialState = {
         shown: false
       },
       {
-        id: uuid.v4(),
+        id: '004',
         name: 'Мефодий',
         middlename: 'Капитонович',
         surname: 'Гольдшмидт',
@@ -70,7 +69,7 @@ const initialState = {
         shown: false
       },
       {
-        id: uuid.v4(),
+        id: '005',
         name: 'Руслан',
         middlename: 'Анастасьевич',
         surname: 'Пестов',
@@ -83,7 +82,7 @@ const initialState = {
         shown: false
       },
       {
-        id: uuid.v4(),
+        id: '006',
         name: 'Сильвестр',
         middlename: 'Иларионович',
         surname: 'Перельман',
@@ -96,7 +95,7 @@ const initialState = {
         shown: false
       },
       {
-        id: uuid.v4(),
+        id: '007',
         name: 'Герман',
         middlename: 'Пантелеимонович',
         surname: 'Шапиро',
@@ -109,7 +108,7 @@ const initialState = {
         shown: false
       },
       {
-        id: uuid.v4(),
+        id: '008',
         name: 'Герасим',
         middlename: 'Исидорович',
         surname: 'Хейфиц',
@@ -122,7 +121,7 @@ const initialState = {
         shown: false
       },
       {
-        id: uuid.v4(),
+        id: '009',
         name: 'Аарон',
         middlename: 'Маврович',
         surname: 'Цигельман',
@@ -135,7 +134,7 @@ const initialState = {
         shown: false
       },
       {
-        id: uuid.v4(),
+        id: '010',
         name: 'Авдий',
         middlename: 'Анфимович',
         surname: 'Мендель',
@@ -148,7 +147,7 @@ const initialState = {
         shown: false
       },
       {
-        id: uuid.v4(),
+        id: '011',
         name: 'Мирон',
         middlename: 'Янович',
         surname: 'Фёдоров',
@@ -164,7 +163,7 @@ const initialState = {
     
     objects: [
       {
-        id: uuid.v4(),
+        id: '000',
         type: 'недвижимость',
         address: 'object 1',
         client: 'Ринат Москвин',
@@ -177,7 +176,7 @@ const initialState = {
         shown: false
       },
       {
-        id: uuid.v4(),
+        id: '001',
         type: 'недвижимость',
         address: 'object 51',
         client: 'Major Tom',
@@ -190,7 +189,7 @@ const initialState = {
         shown: false
       },
       {
-        id: uuid.v4(),
+        id: '002',
         type: 'недвижимость',
         address: '31 SW. Creekside Ave. Miami, FL 33135',
         client: 'Мирон Янович',
@@ -203,7 +202,7 @@ const initialState = {
         shown: false
       },
       {
-        id: uuid.v4(),
+        id: '003',
         type: 'недвижимость',
         address: '9 Windfall Street Tampa, FL 33612',
         client: 'Авдий Мендель',
@@ -215,6 +214,19 @@ const initialState = {
         active: true,
         shown: false
       },
+      {
+        id: '004',
+        type: 'недвижимость',
+        address: '9 Windfall Street Tampa, FL 33612',
+        client: 'Авдий Мендель',
+        contract: '# 123-2019',
+        services: 'охрана',
+        status: 'действует',
+        date: '23.01.2019',
+        expiration: '23.01.2021',
+        active: true,
+        shown: false
+      }
     ]
 }
 

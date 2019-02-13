@@ -36,9 +36,9 @@ ObjectsList.propTypes = {
         expiration: PropTypes.string,
         active: PropTypes.bool.isRequired,
         shown: PropTypes.bool.isRequired
-    }).isRequired).isRequired,
-    onObjectClick: PropTypes.func.isRequired,
-    onShowInfo: PropTypes.func.isRequired
+    }).isRequired),
+    onObjectClick: PropTypes.func,
+    onShowInfo: PropTypes.func
 }
 
 export default ObjectsList

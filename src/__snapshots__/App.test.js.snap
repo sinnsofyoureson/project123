@@ -1,0 +1,2713 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component matches the snapshot 1`] = `
+<div
+  className="App"
+>
+  <a
+    className="home"
+    href="/"
+    onClick={[Function]}
+  >
+    НА ГЛАВНУЮ
+  </a>
+  <div
+    className="groundControl"
+  >
+    <div
+      style={
+        Object {
+          "display": "block",
+        }
+      }
+    >
+      <h2
+        style={
+          Object {
+            "margin": "34px",
+          }
+        }
+      >
+         Список клиентов 
+      </h2>
+      <a
+        href="/client-form"
+        onClick={[Function]}
+        style={
+          Object {
+            "background": "#e5e5e5",
+            "borderRadius": "5px",
+            "color": "#080808",
+            "marginLeft": "34px",
+            "padding": "13px",
+            "textDecoration": "none",
+          }
+        }
+      >
+        Новый клиент
+      </a>
+      <ul
+        style={
+          Object {
+            "background": "#080808",
+            "borderRadius": "8px",
+            "boxShadow": "0 8px 21px #000",
+            "margin": "34px",
+            "maxHeight": "65vh",
+            "overflowY": "scroll",
+            "padding": "0",
+            "width": "400px",
+          }
+        }
+      >
+        <li
+          onClick={[Function]}
+          style={
+            Object {
+              "display": "inline",
+            }
+          }
+        >
+          <div
+            className="sc-bdVaJa bwzQPy"
+          >
+            <div
+              className="sc-htpNat kTHLBp"
+            >
+              <p
+                className="sc-bwzfXH gtBSna"
+              >
+                ФИО:
+              </p>
+              <p>
+                Москвин
+                 
+                Ринат
+                 
+                Юрьевич
+              </p>
+            </div>
+            <div
+              className="sc-htpNat kTHLBp"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-bwzfXH gtBSna"
+              >
+                телефон: 
+              </p>
+              <p>
+                +7-900-311-21-14
+              </p>
+            </div>
+            <div
+              className="sc-htpNat kTHLBp"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-bwzfXH gtBSna"
+              >
+                email: 
+              </p>
+              <p>
+                test@test.com
+              </p>
+            </div>
+            <div
+              className="sc-htpNat kTHLBp"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-bwzfXH gtBSna"
+              >
+                город: 
+              </p>
+              <p>
+                Энгельс
+              </p>
+            </div>
+            <div
+              className="sc-htpNat kTHLBp"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-bwzfXH gtBSna"
+              >
+                информация:
+              </p>
+              <p>
+                
+              </p>
+            </div>
+            <div
+              className="sc-htpNat kTHLBp"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-bwzfXH gtBSna"
+              >
+                список объектов: 
+              </p>
+              <p>
+                object 1
+              </p>
+            </div>
+            <div
+              style={
+                Object {
+                  "display": "flex",
+                  "justifyContent": "flex-end",
+                }
+              }
+            >
+              <button
+                className="sc-bxivhb cOpcuA"
+                style={
+                  Object {
+                    "display": "none",
+                  }
+                }
+              >
+                Update!
+              </button>
+              <button
+                className="sc-bxivhb cOpcuA"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "display": "none",
+                  }
+                }
+              >
+                Delete!
+              </button>
+            </div>
+          </div>
+        </li>
+        <li
+          onClick={[Function]}
+          style={
+            Object {
+              "display": "inline",
+            }
+          }
+        >
+          <div
+            className="sc-bdVaJa bwzQPy"
+          >
+            <div
+              className="sc-htpNat kTHLBp"
+            >
+              <p
+                className="sc-bwzfXH gtBSna"
+              >
+                ФИО:
+              </p>
+              <p>
+                Major
+                 
+                Tom
+                 
+                
+              </p>
+            </div>
+            <div
+              className="sc-htpNat kTHLBp"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-bwzfXH gtBSna"
+              >
+                телефон: 
+              </p>
+              <p>
+                (202) 358-0001 (Office)
+              </p>
+            </div>
+            <div
+              className="sc-htpNat kTHLBp"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-bwzfXH gtBSna"
+              >
+                email: 
+              </p>
+              <p>
+                m.tom@davidbowietribute.com
+              </p>
+            </div>
+            <div
+              className="sc-htpNat kTHLBp"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-bwzfXH gtBSna"
+              >
+                город: 
+              </p>
+              <p>
+                Cape Canaveral
+              </p>
+            </div>
+            <div
+              className="sc-htpNat kTHLBp"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-bwzfXH gtBSna"
+              >
+                информация:
+              </p>
+              <p>
+                Take your protein pills and put your helmet on
+              </p>
+            </div>
+            <div
+              className="sc-htpNat kTHLBp"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-bwzfXH gtBSna"
+              >
+                список объектов: 
+              </p>
+              <p>
+                object 51
+              </p>
+            </div>
+            <div
+              style={
+                Object {
+                  "display": "flex",
+                  "justifyContent": "flex-end",
+                }
+              }
+            >
+              <button
+                className="sc-bxivhb cOpcuA"
+                style={
+                  Object {
+                    "display": "none",
+                  }
+                }
+              >
+                Update!
+              </button>
+              <button
+                className="sc-bxivhb cOpcuA"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "display": "none",
+                  }
+                }
+              >
+                Delete!
+              </button>
+            </div>
+          </div>
+        </li>
+        <li
+          onClick={[Function]}
+          style={
+            Object {
+              "display": "inline",
+            }
+          }
+        >
+          <div
+            className="sc-bdVaJa bwzQPy"
+          >
+            <div
+              className="sc-htpNat kTHLBp"
+            >
+              <p
+                className="sc-bwzfXH gtBSna"
+              >
+                ФИО:
+              </p>
+              <p>
+                Гайзенберг
+                 
+                Гавриил
+                 
+                Самуилович
+              </p>
+            </div>
+            <div
+              className="sc-htpNat kTHLBp"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-bwzfXH gtBSna"
+              >
+                телефон: 
+              </p>
+              <p>
+                +7(169)908-16-14
+              </p>
+            </div>
+            <div
+              className="sc-htpNat kTHLBp"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-bwzfXH gtBSna"
+              >
+                email: 
+              </p>
+              <p>
+                g.gavriil@test.com
+              </p>
+            </div>
+            <div
+              className="sc-htpNat kTHLBp"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-bwzfXH gtBSna"
+              >
+                город: 
+              </p>
+              <p>
+                Эль Пуэблито, Мексика
+              </p>
+            </div>
+            <div
+              className="sc-htpNat kTHLBp"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-bwzfXH gtBSna"
+              >
+                информация:
+              </p>
+              <p>
+                
+              </p>
+            </div>
+            <div
+              className="sc-htpNat kTHLBp"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-bwzfXH gtBSna"
+              >
+                список объектов: 
+              </p>
+              <p>
+                338 Cedar Rd. Miami, FL 33193
+              </p>
+            </div>
+            <div
+              style={
+                Object {
+                  "display": "flex",
+                  "justifyContent": "flex-end",
+                }
+              }
+            >
+              <button
+                className="sc-bxivhb cOpcuA"
+                style={
+                  Object {
+                    "display": "none",
+                  }
+                }
+              >
+                Update!
+              </button>
+              <button
+                className="sc-bxivhb cOpcuA"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "display": "none",
+                  }
+                }
+              >
+                Delete!
+              </button>
+            </div>
+          </div>
+        </li>
+        <li
+          onClick={[Function]}
+          style={
+            Object {
+              "display": "inline",
+            }
+          }
+        >
+          <div
+            className="sc-bdVaJa bwzQPy"
+          >
+            <div
+              className="sc-htpNat kTHLBp"
+            >
+              <p
+                className="sc-bwzfXH gtBSna"
+              >
+                ФИО:
+              </p>
+              <p>
+                Макаров
+                 
+                Тимофей
+                 
+                Богданович
+              </p>
+            </div>
+            <div
+              className="sc-htpNat kTHLBp"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-bwzfXH gtBSna"
+              >
+                телефон: 
+              </p>
+              <p>
+                +7(69)951-95-24
+              </p>
+            </div>
+            <div
+              className="sc-htpNat kTHLBp"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-bwzfXH gtBSna"
+              >
+                email: 
+              </p>
+              <p>
+                timofei.makarov@test.com
+              </p>
+            </div>
+            <div
+              className="sc-htpNat kTHLBp"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-bwzfXH gtBSna"
+              >
+                город: 
+              </p>
+              <p>
+                Дельменхорст, Германия
+              </p>
+            </div>
+            <div
+              className="sc-htpNat kTHLBp"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-bwzfXH gtBSna"
+              >
+                информация:
+              </p>
+              <p>
+                
+              </p>
+            </div>
+            <div
+              className="sc-htpNat kTHLBp"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-bwzfXH gtBSna"
+              >
+                список объектов: 
+              </p>
+              <p>
+                936 Primrose Rd. Saint Petersburg, FL 33713
+              </p>
+            </div>
+            <div
+              style={
+                Object {
+                  "display": "flex",
+                  "justifyContent": "flex-end",
+                }
+              }
+            >
+              <button
+                className="sc-bxivhb cOpcuA"
+                style={
+                  Object {
+                    "display": "none",
+                  }
+                }
+              >
+                Update!
+              </button>
+              <button
+                className="sc-bxivhb cOpcuA"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "display": "none",
+                  }
+                }
+              >
+                Delete!
+              </button>
+            </div>
+          </div>
+        </li>
+        <li
+          onClick={[Function]}
+          style={
+            Object {
+              "display": "inline",
+            }
+          }
+        >
+          <div
+            className="sc-bdVaJa bwzQPy"
+          >
+            <div
+              className="sc-htpNat kTHLBp"
+            >
+              <p
+                className="sc-bwzfXH gtBSna"
+              >
+                ФИО:
+              </p>
+              <p>
+                Гольдшмидт
+                 
+                Мефодий
+                 
+                Капитонович
+              </p>
+            </div>
+            <div
+              className="sc-htpNat kTHLBp"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-bwzfXH gtBSna"
+              >
+                телефон: 
+              </p>
+              <p>
+                +7(987)045-65-16
+              </p>
+            </div>
+            <div
+              className="sc-htpNat kTHLBp"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-bwzfXH gtBSna"
+              >
+                email: 
+              </p>
+              <p>
+                goldshmidt.mefodiixy@test.com
+              </p>
+            </div>
+            <div
+              className="sc-htpNat kTHLBp"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-bwzfXH gtBSna"
+              >
+                город: 
+              </p>
+              <p>
+                Тандер-Бей, Канада
+              </p>
+            </div>
+            <div
+              className="sc-htpNat kTHLBp"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-bwzfXH gtBSna"
+              >
+                информация:
+              </p>
+              <p>
+                
+              </p>
+            </div>
+            <div
+              className="sc-htpNat kTHLBp"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-bwzfXH gtBSna"
+              >
+                список объектов: 
+              </p>
+              <p>
+                8517 Rock Creek St. Pensacola, FL 32503
+              </p>
+            </div>
+            <div
+              style={
+                Object {
+                  "display": "flex",
+                  "justifyContent": "flex-end",
+                }
+              }
+            >
+              <button
+                className="sc-bxivhb cOpcuA"
+                style={
+                  Object {
+                    "display": "none",
+                  }
+                }
+              >
+                Update!
+              </button>
+              <button
+                className="sc-bxivhb cOpcuA"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "display": "none",
+                  }
+                }
+              >
+                Delete!
+              </button>
+            </div>
+          </div>
+        </li>
+        <li
+          onClick={[Function]}
+          style={
+            Object {
+              "display": "inline",
+            }
+          }
+        >
+          <div
+            className="sc-bdVaJa bwzQPy"
+          >
+            <div
+              className="sc-htpNat kTHLBp"
+            >
+              <p
+                className="sc-bwzfXH gtBSna"
+              >
+                ФИО:
+              </p>
+              <p>
+                Пестов
+                 
+                Руслан
+                 
+                Анастасьевич
+              </p>
+            </div>
+            <div
+              className="sc-htpNat kTHLBp"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-bwzfXH gtBSna"
+              >
+                телефон: 
+              </p>
+              <p>
+                +7(16)331-73-86
+              </p>
+            </div>
+            <div
+              className="sc-htpNat kTHLBp"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-bwzfXH gtBSna"
+              >
+                email: 
+              </p>
+              <p>
+                r.pestov.moon@test.com
+              </p>
+            </div>
+            <div
+              className="sc-htpNat kTHLBp"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-bwzfXH gtBSna"
+              >
+                город: 
+              </p>
+              <p>
+                Исабела, Филиппины
+              </p>
+            </div>
+            <div
+              className="sc-htpNat kTHLBp"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-bwzfXH gtBSna"
+              >
+                информация:
+              </p>
+              <p>
+                
+              </p>
+            </div>
+            <div
+              className="sc-htpNat kTHLBp"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-bwzfXH gtBSna"
+              >
+                список объектов: 
+              </p>
+              <p>
+                7630 Taylor Ave. Orange Park, FL 32073
+              </p>
+            </div>
+            <div
+              style={
+                Object {
+                  "display": "flex",
+                  "justifyContent": "flex-end",
+                }
+              }
+            >
+              <button
+                className="sc-bxivhb cOpcuA"
+                style={
+                  Object {
+                    "display": "none",
+                  }
+                }
+              >
+                Update!
+              </button>
+              <button
+                className="sc-bxivhb cOpcuA"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "display": "none",
+                  }
+                }
+              >
+                Delete!
+              </button>
+            </div>
+          </div>
+        </li>
+        <li
+          onClick={[Function]}
+          style={
+            Object {
+              "display": "inline",
+            }
+          }
+        >
+          <div
+            className="sc-bdVaJa bwzQPy"
+          >
+            <div
+              className="sc-htpNat kTHLBp"
+            >
+              <p
+                className="sc-bwzfXH gtBSna"
+              >
+                ФИО:
+              </p>
+              <p>
+                Перельман
+                 
+                Сильвестр
+                 
+                Иларионович
+              </p>
+            </div>
+            <div
+              className="sc-htpNat kTHLBp"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-bwzfXH gtBSna"
+              >
+                телефон: 
+              </p>
+              <p>
+                +7(72)775-23-40
+              </p>
+            </div>
+            <div
+              className="sc-htpNat kTHLBp"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-bwzfXH gtBSna"
+              >
+                email: 
+              </p>
+              <p>
+                s.perelman019@test.com
+              </p>
+            </div>
+            <div
+              className="sc-htpNat kTHLBp"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-bwzfXH gtBSna"
+              >
+                город: 
+              </p>
+              <p>
+                Селайя, Мексика
+              </p>
+            </div>
+            <div
+              className="sc-htpNat kTHLBp"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-bwzfXH gtBSna"
+              >
+                информация:
+              </p>
+              <p>
+                
+              </p>
+            </div>
+            <div
+              className="sc-htpNat kTHLBp"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-bwzfXH gtBSna"
+              >
+                список объектов: 
+              </p>
+              <p>
+                417 Thomas St. Miami, FL 33134
+              </p>
+            </div>
+            <div
+              style={
+                Object {
+                  "display": "flex",
+                  "justifyContent": "flex-end",
+                }
+              }
+            >
+              <button
+                className="sc-bxivhb cOpcuA"
+                style={
+                  Object {
+                    "display": "none",
+                  }
+                }
+              >
+                Update!
+              </button>
+              <button
+                className="sc-bxivhb cOpcuA"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "display": "none",
+                  }
+                }
+              >
+                Delete!
+              </button>
+            </div>
+          </div>
+        </li>
+        <li
+          onClick={[Function]}
+          style={
+            Object {
+              "display": "inline",
+            }
+          }
+        >
+          <div
+            className="sc-bdVaJa bwzQPy"
+          >
+            <div
+              className="sc-htpNat kTHLBp"
+            >
+              <p
+                className="sc-bwzfXH gtBSna"
+              >
+                ФИО:
+              </p>
+              <p>
+                Шапиро
+                 
+                Герман
+                 
+                Пантелеимонович
+              </p>
+            </div>
+            <div
+              className="sc-htpNat kTHLBp"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-bwzfXH gtBSna"
+              >
+                телефон: 
+              </p>
+              <p>
+                +7(00)670-83-39
+              </p>
+            </div>
+            <div
+              className="sc-htpNat kTHLBp"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-bwzfXH gtBSna"
+              >
+                email: 
+              </p>
+              <p>
+                s.germanter@test.com
+              </p>
+            </div>
+            <div
+              className="sc-htpNat kTHLBp"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-bwzfXH gtBSna"
+              >
+                город: 
+              </p>
+              <p>
+                Басар, Того
+              </p>
+            </div>
+            <div
+              className="sc-htpNat kTHLBp"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-bwzfXH gtBSna"
+              >
+                информация:
+              </p>
+              <p>
+                
+              </p>
+            </div>
+            <div
+              className="sc-htpNat kTHLBp"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-bwzfXH gtBSna"
+              >
+                список объектов: 
+              </p>
+              <p>
+                830 10th Ave. Sarasota, FL 34231
+              </p>
+            </div>
+            <div
+              style={
+                Object {
+                  "display": "flex",
+                  "justifyContent": "flex-end",
+                }
+              }
+            >
+              <button
+                className="sc-bxivhb cOpcuA"
+                style={
+                  Object {
+                    "display": "none",
+                  }
+                }
+              >
+                Update!
+              </button>
+              <button
+                className="sc-bxivhb cOpcuA"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "display": "none",
+                  }
+                }
+              >
+                Delete!
+              </button>
+            </div>
+          </div>
+        </li>
+        <li
+          onClick={[Function]}
+          style={
+            Object {
+              "display": "inline",
+            }
+          }
+        >
+          <div
+            className="sc-bdVaJa bwzQPy"
+          >
+            <div
+              className="sc-htpNat kTHLBp"
+            >
+              <p
+                className="sc-bwzfXH gtBSna"
+              >
+                ФИО:
+              </p>
+              <p>
+                Хейфиц
+                 
+                Герасим
+                 
+                Исидорович
+              </p>
+            </div>
+            <div
+              className="sc-htpNat kTHLBp"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-bwzfXH gtBSna"
+              >
+                телефон: 
+              </p>
+              <p>
+                +7(32)506-36-81
+              </p>
+            </div>
+            <div
+              className="sc-htpNat kTHLBp"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-bwzfXH gtBSna"
+              >
+                email: 
+              </p>
+              <p>
+                g.kheifits@test.com
+              </p>
+            </div>
+            <div
+              className="sc-htpNat kTHLBp"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-bwzfXH gtBSna"
+              >
+                город: 
+              </p>
+              <p>
+                Эскобедо, Мексика
+              </p>
+            </div>
+            <div
+              className="sc-htpNat kTHLBp"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-bwzfXH gtBSna"
+              >
+                информация:
+              </p>
+              <p>
+                
+              </p>
+            </div>
+            <div
+              className="sc-htpNat kTHLBp"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-bwzfXH gtBSna"
+              >
+                список объектов: 
+              </p>
+              <p>
+                8 East Alderwood Ave. Tallahassee, FL 32304
+              </p>
+            </div>
+            <div
+              style={
+                Object {
+                  "display": "flex",
+                  "justifyContent": "flex-end",
+                }
+              }
+            >
+              <button
+                className="sc-bxivhb cOpcuA"
+                style={
+                  Object {
+                    "display": "none",
+                  }
+                }
+              >
+                Update!
+              </button>
+              <button
+                className="sc-bxivhb cOpcuA"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "display": "none",
+                  }
+                }
+              >
+                Delete!
+              </button>
+            </div>
+          </div>
+        </li>
+        <li
+          onClick={[Function]}
+          style={
+            Object {
+              "display": "inline",
+            }
+          }
+        >
+          <div
+            className="sc-bdVaJa bwzQPy"
+          >
+            <div
+              className="sc-htpNat kTHLBp"
+            >
+              <p
+                className="sc-bwzfXH gtBSna"
+              >
+                ФИО:
+              </p>
+              <p>
+                Цигельман
+                 
+                Аарон
+                 
+                Маврович
+              </p>
+            </div>
+            <div
+              className="sc-htpNat kTHLBp"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-bwzfXH gtBSna"
+              >
+                телефон: 
+              </p>
+              <p>
+                +7(0966)002-21-37
+              </p>
+            </div>
+            <div
+              className="sc-htpNat kTHLBp"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-bwzfXH gtBSna"
+              >
+                email: 
+              </p>
+              <p>
+                t.aaron@test.com
+              </p>
+            </div>
+            <div
+              className="sc-htpNat kTHLBp"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-bwzfXH gtBSna"
+              >
+                город: 
+              </p>
+              <p>
+                Маргилан, Узбекистан
+              </p>
+            </div>
+            <div
+              className="sc-htpNat kTHLBp"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-bwzfXH gtBSna"
+              >
+                информация:
+              </p>
+              <p>
+                
+              </p>
+            </div>
+            <div
+              className="sc-htpNat kTHLBp"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-bwzfXH gtBSna"
+              >
+                список объектов: 
+              </p>
+              <p>
+                7359 Selby Street Hialeah, FL 33013
+              </p>
+            </div>
+            <div
+              style={
+                Object {
+                  "display": "flex",
+                  "justifyContent": "flex-end",
+                }
+              }
+            >
+              <button
+                className="sc-bxivhb cOpcuA"
+                style={
+                  Object {
+                    "display": "none",
+                  }
+                }
+              >
+                Update!
+              </button>
+              <button
+                className="sc-bxivhb cOpcuA"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "display": "none",
+                  }
+                }
+              >
+                Delete!
+              </button>
+            </div>
+          </div>
+        </li>
+        <li
+          onClick={[Function]}
+          style={
+            Object {
+              "display": "inline",
+            }
+          }
+        >
+          <div
+            className="sc-bdVaJa bwzQPy"
+          >
+            <div
+              className="sc-htpNat kTHLBp"
+            >
+              <p
+                className="sc-bwzfXH gtBSna"
+              >
+                ФИО:
+              </p>
+              <p>
+                Мендель
+                 
+                Авдий
+                 
+                Анфимович
+              </p>
+            </div>
+            <div
+              className="sc-htpNat kTHLBp"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-bwzfXH gtBSna"
+              >
+                телефон: 
+              </p>
+              <p>
+                +7(0854)545-88-08
+              </p>
+            </div>
+            <div
+              className="sc-htpNat kTHLBp"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-bwzfXH gtBSna"
+              >
+                email: 
+              </p>
+              <p>
+                avdii.mendel@test.com
+              </p>
+            </div>
+            <div
+              className="sc-htpNat kTHLBp"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-bwzfXH gtBSna"
+              >
+                город: 
+              </p>
+              <p>
+                Янсан, Ю.Корея
+              </p>
+            </div>
+            <div
+              className="sc-htpNat kTHLBp"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-bwzfXH gtBSna"
+              >
+                информация:
+              </p>
+              <p>
+                
+              </p>
+            </div>
+            <div
+              className="sc-htpNat kTHLBp"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-bwzfXH gtBSna"
+              >
+                список объектов: 
+              </p>
+              <p>
+                9 Windfall Street Tampa, FL 33612
+              </p>
+            </div>
+            <div
+              style={
+                Object {
+                  "display": "flex",
+                  "justifyContent": "flex-end",
+                }
+              }
+            >
+              <button
+                className="sc-bxivhb cOpcuA"
+                style={
+                  Object {
+                    "display": "none",
+                  }
+                }
+              >
+                Update!
+              </button>
+              <button
+                className="sc-bxivhb cOpcuA"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "display": "none",
+                  }
+                }
+              >
+                Delete!
+              </button>
+            </div>
+          </div>
+        </li>
+        <li
+          onClick={[Function]}
+          style={
+            Object {
+              "display": "inline",
+            }
+          }
+        >
+          <div
+            className="sc-bdVaJa bwzQPy"
+          >
+            <div
+              className="sc-htpNat kTHLBp"
+            >
+              <p
+                className="sc-bwzfXH gtBSna"
+              >
+                ФИО:
+              </p>
+              <p>
+                Фёдоров
+                 
+                Мирон
+                 
+                Янович
+              </p>
+            </div>
+            <div
+              className="sc-htpNat kTHLBp"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-bwzfXH gtBSna"
+              >
+                телефон: 
+              </p>
+              <p>
+                +7(453)435-19-72
+              </p>
+            </div>
+            <div
+              className="sc-htpNat kTHLBp"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-bwzfXH gtBSna"
+              >
+                email: 
+              </p>
+              <p>
+                oxxxy@test.com
+              </p>
+            </div>
+            <div
+              className="sc-htpNat kTHLBp"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-bwzfXH gtBSna"
+              >
+                город: 
+              </p>
+              <p>
+                Cанкт-Петербург, РФ
+              </p>
+            </div>
+            <div
+              className="sc-htpNat kTHLBp"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-bwzfXH gtBSna"
+              >
+                информация:
+              </p>
+              <p>
+                
+              </p>
+            </div>
+            <div
+              className="sc-htpNat kTHLBp"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-bwzfXH gtBSna"
+              >
+                список объектов: 
+              </p>
+              <p>
+                31 SW. Creekside Ave. Miami, FL 33135
+              </p>
+            </div>
+            <div
+              style={
+                Object {
+                  "display": "flex",
+                  "justifyContent": "flex-end",
+                }
+              }
+            >
+              <button
+                className="sc-bxivhb cOpcuA"
+                style={
+                  Object {
+                    "display": "none",
+                  }
+                }
+              >
+                Update!
+              </button>
+              <button
+                className="sc-bxivhb cOpcuA"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "display": "none",
+                  }
+                }
+              >
+                Delete!
+              </button>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div
+      style={
+        Object {
+          "display": "block",
+        }
+      }
+    >
+      <h2
+        style={
+          Object {
+            "margin": "34px",
+          }
+        }
+      >
+         Список объектов 
+      </h2>
+      <a
+        href="/object-form"
+        onClick={[Function]}
+        style={
+          Object {
+            "background": "#e5e5e5",
+            "borderRadius": "5px",
+            "color": "#080808",
+            "marginLeft": "34px",
+            "padding": "13px",
+            "textDecoration": "none",
+          }
+        }
+      >
+        Добавить новый объект
+      </a>
+      <ul
+        style={
+          Object {
+            "background": "#080808",
+            "borderRadius": "8px",
+            "boxShadow": "0 8px 21px #000",
+            "margin": "34px",
+            "maxHeight": "65vh",
+            "overflowY": "scroll",
+            "padding": "0",
+            "width": "400px",
+          }
+        }
+      >
+        <li
+          onClick={[Function]}
+          style={
+            Object {
+              "display": "inline",
+            }
+          }
+        >
+          <div
+            className="sc-iwsKbI gRCHhx"
+          >
+            <div
+              className="sc-gqjmRU cctzSa"
+              style={
+                Object {
+                  "flexDirection": "column",
+                }
+              }
+            >
+              <div
+                className="sc-gqjmRU cctzSa"
+              >
+                <p
+                  className="sc-gZMcBi kqocuu"
+                >
+                  Договор
+                </p>
+                <p>
+                  # 709-2017
+                </p>
+              </div>
+              <div
+                className="sc-gqjmRU cctzSa"
+              >
+                <p
+                  className="sc-gZMcBi kqocuu"
+                >
+                  тип: 
+                </p>
+                <p>
+                  недвижимость
+                </p>
+              </div>
+              <div
+                className="sc-gqjmRU cctzSa"
+              >
+                <p
+                  className="sc-gZMcBi kqocuu"
+                >
+                  от 
+                </p>
+                <p>
+                  07.09.2017
+                </p>
+              </div>
+            </div>
+            <div
+              className="sc-gqjmRU cctzSa"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-gZMcBi kqocuu"
+              >
+                адресс: 
+              </p>
+              <p>
+                object 1
+              </p>
+            </div>
+            <div
+              className="sc-gqjmRU cctzSa"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-gZMcBi kqocuu"
+              >
+                клиент: 
+              </p>
+              <p>
+                Ринат Москвин
+              </p>
+            </div>
+            <div
+              className="sc-gqjmRU cctzSa"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-gZMcBi kqocuu"
+              >
+                подключенные услуги: 
+              </p>
+              <p>
+                охрана, видеонаблюдение, датчик воды, датчик дыма
+              </p>
+            </div>
+            <div
+              className="sc-gqjmRU cctzSa"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-gZMcBi kqocuu"
+              >
+                статус:
+              </p>
+              <p>
+                ожидает оплаты
+              </p>
+            </div>
+            <div
+              className="sc-gqjmRU cctzSa"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-gZMcBi kqocuu"
+              >
+                дата, до которой действует договор: 
+              </p>
+              <p>
+                нет
+              </p>
+            </div>
+            <div
+              className="sc-gqjmRU cctzSa"
+              style={
+                Object {
+                  "display": "flex",
+                  "justifyContent": "flex-end",
+                }
+              }
+            >
+              <button
+                className="sc-VigVT enauVl"
+                style={
+                  Object {
+                    "display": "none",
+                  }
+                }
+              >
+                Update!
+              </button>
+              <button
+                className="sc-VigVT enauVl"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "display": "none",
+                  }
+                }
+              >
+                Delete!
+              </button>
+            </div>
+          </div>
+        </li>
+        <li
+          onClick={[Function]}
+          style={
+            Object {
+              "display": "inline",
+            }
+          }
+        >
+          <div
+            className="sc-iwsKbI gRCHhx"
+          >
+            <div
+              className="sc-gqjmRU cctzSa"
+              style={
+                Object {
+                  "flexDirection": "column",
+                }
+              }
+            >
+              <div
+                className="sc-gqjmRU cctzSa"
+              >
+                <p
+                  className="sc-gZMcBi kqocuu"
+                >
+                  Договор
+                </p>
+                <p>
+                  # 001-1969
+                </p>
+              </div>
+              <div
+                className="sc-gqjmRU cctzSa"
+              >
+                <p
+                  className="sc-gZMcBi kqocuu"
+                >
+                  тип: 
+                </p>
+                <p>
+                  недвижимость
+                </p>
+              </div>
+              <div
+                className="sc-gqjmRU cctzSa"
+              >
+                <p
+                  className="sc-gZMcBi kqocuu"
+                >
+                  от 
+                </p>
+                <p>
+                  11.07.1969
+                </p>
+              </div>
+            </div>
+            <div
+              className="sc-gqjmRU cctzSa"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-gZMcBi kqocuu"
+              >
+                адресс: 
+              </p>
+              <p>
+                object 51
+              </p>
+            </div>
+            <div
+              className="sc-gqjmRU cctzSa"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-gZMcBi kqocuu"
+              >
+                клиент: 
+              </p>
+              <p>
+                Major Tom
+              </p>
+            </div>
+            <div
+              className="sc-gqjmRU cctzSa"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-gZMcBi kqocuu"
+              >
+                подключенные услуги: 
+              </p>
+              <p>
+                охрана, видеонаблюдение, датчик воды
+              </p>
+            </div>
+            <div
+              className="sc-gqjmRU cctzSa"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-gZMcBi kqocuu"
+              >
+                статус:
+              </p>
+              <p>
+                действует
+              </p>
+            </div>
+            <div
+              className="sc-gqjmRU cctzSa"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-gZMcBi kqocuu"
+              >
+                дата, до которой действует договор: 
+              </p>
+              <p>
+                бесконечный
+              </p>
+            </div>
+            <div
+              className="sc-gqjmRU cctzSa"
+              style={
+                Object {
+                  "display": "flex",
+                  "justifyContent": "flex-end",
+                }
+              }
+            >
+              <button
+                className="sc-VigVT enauVl"
+                style={
+                  Object {
+                    "display": "none",
+                  }
+                }
+              >
+                Update!
+              </button>
+              <button
+                className="sc-VigVT enauVl"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "display": "none",
+                  }
+                }
+              >
+                Delete!
+              </button>
+            </div>
+          </div>
+        </li>
+        <li
+          onClick={[Function]}
+          style={
+            Object {
+              "display": "inline",
+            }
+          }
+        >
+          <div
+            className="sc-iwsKbI gRCHhx"
+          >
+            <div
+              className="sc-gqjmRU cctzSa"
+              style={
+                Object {
+                  "flexDirection": "column",
+                }
+              }
+            >
+              <div
+                className="sc-gqjmRU cctzSa"
+              >
+                <p
+                  className="sc-gZMcBi kqocuu"
+                >
+                  Договор
+                </p>
+                <p>
+                  # 001-2015
+                </p>
+              </div>
+              <div
+                className="sc-gqjmRU cctzSa"
+              >
+                <p
+                  className="sc-gZMcBi kqocuu"
+                >
+                  тип: 
+                </p>
+                <p>
+                  недвижимость
+                </p>
+              </div>
+              <div
+                className="sc-gqjmRU cctzSa"
+              >
+                <p
+                  className="sc-gZMcBi kqocuu"
+                >
+                  от 
+                </p>
+                <p>
+                  13.11.2015
+                </p>
+              </div>
+            </div>
+            <div
+              className="sc-gqjmRU cctzSa"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-gZMcBi kqocuu"
+              >
+                адресс: 
+              </p>
+              <p>
+                31 SW. Creekside Ave. Miami, FL 33135
+              </p>
+            </div>
+            <div
+              className="sc-gqjmRU cctzSa"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-gZMcBi kqocuu"
+              >
+                клиент: 
+              </p>
+              <p>
+                Мирон Янович
+              </p>
+            </div>
+            <div
+              className="sc-gqjmRU cctzSa"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-gZMcBi kqocuu"
+              >
+                подключенные услуги: 
+              </p>
+              <p>
+                охрана, видеонаблюдение,
+              </p>
+            </div>
+            <div
+              className="sc-gqjmRU cctzSa"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-gZMcBi kqocuu"
+              >
+                статус:
+              </p>
+              <p>
+                отключен
+              </p>
+            </div>
+            <div
+              className="sc-gqjmRU cctzSa"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-gZMcBi kqocuu"
+              >
+                дата, до которой действует договор: 
+              </p>
+              <p>
+                
+              </p>
+            </div>
+            <div
+              className="sc-gqjmRU cctzSa"
+              style={
+                Object {
+                  "display": "flex",
+                  "justifyContent": "flex-end",
+                }
+              }
+            >
+              <button
+                className="sc-VigVT enauVl"
+                style={
+                  Object {
+                    "display": "none",
+                  }
+                }
+              >
+                Update!
+              </button>
+              <button
+                className="sc-VigVT enauVl"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "display": "none",
+                  }
+                }
+              >
+                Delete!
+              </button>
+            </div>
+          </div>
+        </li>
+        <li
+          onClick={[Function]}
+          style={
+            Object {
+              "display": "inline",
+            }
+          }
+        >
+          <div
+            className="sc-iwsKbI gRCHhx"
+          >
+            <div
+              className="sc-gqjmRU cctzSa"
+              style={
+                Object {
+                  "flexDirection": "column",
+                }
+              }
+            >
+              <div
+                className="sc-gqjmRU cctzSa"
+              >
+                <p
+                  className="sc-gZMcBi kqocuu"
+                >
+                  Договор
+                </p>
+                <p>
+                  # 123-2019
+                </p>
+              </div>
+              <div
+                className="sc-gqjmRU cctzSa"
+              >
+                <p
+                  className="sc-gZMcBi kqocuu"
+                >
+                  тип: 
+                </p>
+                <p>
+                  недвижимость
+                </p>
+              </div>
+              <div
+                className="sc-gqjmRU cctzSa"
+              >
+                <p
+                  className="sc-gZMcBi kqocuu"
+                >
+                  от 
+                </p>
+                <p>
+                  23.01.2019
+                </p>
+              </div>
+            </div>
+            <div
+              className="sc-gqjmRU cctzSa"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-gZMcBi kqocuu"
+              >
+                адресс: 
+              </p>
+              <p>
+                9 Windfall Street Tampa, FL 33612
+              </p>
+            </div>
+            <div
+              className="sc-gqjmRU cctzSa"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-gZMcBi kqocuu"
+              >
+                клиент: 
+              </p>
+              <p>
+                Авдий Мендель
+              </p>
+            </div>
+            <div
+              className="sc-gqjmRU cctzSa"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-gZMcBi kqocuu"
+              >
+                подключенные услуги: 
+              </p>
+              <p>
+                охрана
+              </p>
+            </div>
+            <div
+              className="sc-gqjmRU cctzSa"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-gZMcBi kqocuu"
+              >
+                статус:
+              </p>
+              <p>
+                действует
+              </p>
+            </div>
+            <div
+              className="sc-gqjmRU cctzSa"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-gZMcBi kqocuu"
+              >
+                дата, до которой действует договор: 
+              </p>
+              <p>
+                23.01.2021
+              </p>
+            </div>
+            <div
+              className="sc-gqjmRU cctzSa"
+              style={
+                Object {
+                  "display": "flex",
+                  "justifyContent": "flex-end",
+                }
+              }
+            >
+              <button
+                className="sc-VigVT enauVl"
+                style={
+                  Object {
+                    "display": "none",
+                  }
+                }
+              >
+                Update!
+              </button>
+              <button
+                className="sc-VigVT enauVl"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "display": "none",
+                  }
+                }
+              >
+                Delete!
+              </button>
+            </div>
+          </div>
+        </li>
+        <li
+          onClick={[Function]}
+          style={
+            Object {
+              "display": "inline",
+            }
+          }
+        >
+          <div
+            className="sc-iwsKbI gRCHhx"
+          >
+            <div
+              className="sc-gqjmRU cctzSa"
+              style={
+                Object {
+                  "flexDirection": "column",
+                }
+              }
+            >
+              <div
+                className="sc-gqjmRU cctzSa"
+              >
+                <p
+                  className="sc-gZMcBi kqocuu"
+                >
+                  Договор
+                </p>
+                <p>
+                  # 123-2019
+                </p>
+              </div>
+              <div
+                className="sc-gqjmRU cctzSa"
+              >
+                <p
+                  className="sc-gZMcBi kqocuu"
+                >
+                  тип: 
+                </p>
+                <p>
+                  недвижимость
+                </p>
+              </div>
+              <div
+                className="sc-gqjmRU cctzSa"
+              >
+                <p
+                  className="sc-gZMcBi kqocuu"
+                >
+                  от 
+                </p>
+                <p>
+                  23.01.2019
+                </p>
+              </div>
+            </div>
+            <div
+              className="sc-gqjmRU cctzSa"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-gZMcBi kqocuu"
+              >
+                адресс: 
+              </p>
+              <p>
+                9 Windfall Street Tampa, FL 33612
+              </p>
+            </div>
+            <div
+              className="sc-gqjmRU cctzSa"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-gZMcBi kqocuu"
+              >
+                клиент: 
+              </p>
+              <p>
+                Авдий Мендель
+              </p>
+            </div>
+            <div
+              className="sc-gqjmRU cctzSa"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-gZMcBi kqocuu"
+              >
+                подключенные услуги: 
+              </p>
+              <p>
+                охрана
+              </p>
+            </div>
+            <div
+              className="sc-gqjmRU cctzSa"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-gZMcBi kqocuu"
+              >
+                статус:
+              </p>
+              <p>
+                действует
+              </p>
+            </div>
+            <div
+              className="sc-gqjmRU cctzSa"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <p
+                className="sc-gZMcBi kqocuu"
+              >
+                дата, до которой действует договор: 
+              </p>
+              <p>
+                23.01.2021
+              </p>
+            </div>
+            <div
+              className="sc-gqjmRU cctzSa"
+              style={
+                Object {
+                  "display": "flex",
+                  "justifyContent": "flex-end",
+                }
+              }
+            >
+              <button
+                className="sc-VigVT enauVl"
+                style={
+                  Object {
+                    "display": "none",
+                  }
+                }
+              >
+                Update!
+              </button>
+              <button
+                className="sc-VigVT enauVl"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "display": "none",
+                  }
+                }
+              >
+                Delete!
+              </button>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;

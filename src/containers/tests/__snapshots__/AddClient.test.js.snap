@@ -1,0 +1,349 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddClient container matches the snapshot 1`] = `
+<div
+  className="sc-bdVaJa iZmIoS"
+>
+  <form
+    className="sc-bxivhb cPXNkE"
+    onSubmit={[Function]}
+  >
+    <div
+      style={
+        Object {
+          "alignContent": "stretch",
+          "margin": "8px",
+          "width": "400px",
+        }
+      }
+    >
+      <div
+        className="sc-ifAKCX jGNOMv"
+      >
+        <label
+          className="sc-htpNat bVeTPq"
+        >
+          Фамилия
+        </label>
+        <input
+          name="surname"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onDragStart={[Function]}
+          onDrop={[Function]}
+          onFocus={[Function]}
+          style={
+            Object {
+              "background": "#080808",
+              "border": "none",
+              "borderRadius": "8px",
+              "boxShadow": "0 0 13px #000",
+              "color": "#e5e5e5",
+              "fontSize": "21px",
+              "margin": "8px",
+              "padding": "13px",
+              "width": "70%",
+            }
+          }
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        className="sc-ifAKCX jGNOMv"
+      >
+        <label
+          className="sc-htpNat bVeTPq"
+        >
+          Имя
+        </label>
+        <input
+          name="name"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onDragStart={[Function]}
+          onDrop={[Function]}
+          onFocus={[Function]}
+          style={
+            Object {
+              "background": "#080808",
+              "border": "none",
+              "borderRadius": "8px",
+              "boxShadow": "0 0 13px #000",
+              "color": "#e5e5e5",
+              "fontSize": "21px",
+              "margin": "8px",
+              "padding": "13px",
+              "width": "70%",
+            }
+          }
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        className="sc-ifAKCX jGNOMv"
+      >
+        <label
+          className="sc-htpNat bVeTPq"
+        >
+          Отчество
+        </label>
+        <input
+          name="middlename"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onDragStart={[Function]}
+          onDrop={[Function]}
+          onFocus={[Function]}
+          style={
+            Object {
+              "background": "#080808",
+              "border": "none",
+              "borderRadius": "8px",
+              "boxShadow": "0 0 13px #000",
+              "color": "#e5e5e5",
+              "fontSize": "21px",
+              "margin": "8px",
+              "padding": "13px",
+              "width": "70%",
+            }
+          }
+          type="text"
+          value=""
+        />
+      </div>
+      <label
+        className="sc-htpNat bVeTPq"
+      >
+        Город
+      </label>
+      <div>
+        <select
+          name="city"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onDragStart={[Function]}
+          onDrop={[Function]}
+          onFocus={[Function]}
+          style={
+            Object {
+              "background": "#080808",
+              "border": "none",
+              "borderRadius": "8px",
+              "boxShadow": "0 0 13px #000",
+              "color": "#e5e5e5",
+              "cursor": "pointer",
+              "fontFamily": "Segoe UI, Tahoma, Geneva, Verdana, sans-serif",
+              "fontSize": "18px",
+              "padding": "13px",
+              "width": "100%",
+            }
+          }
+          value=""
+        >
+          <option />
+          <option
+            value="Саратов"
+          >
+            Саратов
+          </option>
+          <option
+            value="Москва"
+          >
+            Москва
+          </option>
+          <option
+            value="Питер"
+          >
+            Питер
+          </option>
+        </select>
+      </div>
+      <label
+        className="sc-htpNat bVeTPq"
+      >
+        Объект
+      </label>
+      <div>
+        <select
+          name="objects"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onDragStart={[Function]}
+          onDrop={[Function]}
+          onFocus={[Function]}
+          style={
+            Object {
+              "background": "#080808",
+              "border": "none",
+              "borderRadius": "8px",
+              "boxShadow": "0 0 13px #000",
+              "color": "#e5e5e5",
+              "cursor": "pointer",
+              "fontFamily": "Segoe UI, Tahoma, Geneva, Verdana, sans-serif",
+              "fontSize": "18px",
+              "padding": "13px",
+              "width": "100%",
+            }
+          }
+          value=""
+        >
+          <option
+            className="sc-EHOje exogaX"
+          />
+          <option
+            className="sc-EHOje exogaX"
+            value="объект 1"
+          >
+            объект 1
+          </option>
+          <option
+            className="sc-EHOje exogaX"
+            value="объект 2"
+          >
+            объект 2
+          </option>
+          <option
+            className="sc-EHOje exogaX"
+            value="объект 51"
+          >
+            объект 51
+          </option>
+        </select>
+      </div>
+    </div>
+    <div
+      style={
+        Object {
+          "width": "400px",
+        }
+      }
+    >
+      <div
+        className="sc-ifAKCX jGNOMv"
+      >
+        <label
+          className="sc-htpNat bVeTPq"
+        >
+          Телефон
+        </label>
+        <input
+          name="phone"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onDragStart={[Function]}
+          onDrop={[Function]}
+          onFocus={[Function]}
+          style={
+            Object {
+              "background": "#080808",
+              "border": "none",
+              "borderRadius": "8px",
+              "boxShadow": "0 0 13px #000",
+              "color": "#e5e5e5",
+              "fontSize": "21px",
+              "margin": "8px",
+              "padding": "13px",
+              "width": "70%",
+            }
+          }
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        className="sc-ifAKCX jGNOMv"
+      >
+        <label
+          className="sc-htpNat bVeTPq"
+        >
+          Email
+        </label>
+        <input
+          name="email"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onDragStart={[Function]}
+          onDrop={[Function]}
+          onFocus={[Function]}
+          style={
+            Object {
+              "background": "#080808",
+              "border": "none",
+              "borderRadius": "8px",
+              "boxShadow": "0 0 13px #000",
+              "color": "#e5e5e5",
+              "fontSize": "21px",
+              "margin": "8px",
+              "padding": "13px",
+              "width": "70%",
+            }
+          }
+          type="email"
+          value=""
+        />
+      </div>
+      <div
+        style={
+          Object {
+            "width": "100%",
+          }
+        }
+      >
+        <label
+          className="sc-htpNat bVeTPq"
+        >
+          Дополнительная информация
+        </label>
+        <textarea
+          name="notes"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onDragStart={[Function]}
+          onDrop={[Function]}
+          onFocus={[Function]}
+          style={
+            Object {
+              "background": "#080808",
+              "border": "none",
+              "borderRadius": "8px",
+              "boxShadow": "0 0 13px #000",
+              "color": "#e5e5e5",
+              "fontSize": "21px",
+              "margin": "8px",
+              "padding": "13px",
+              "width": "70%",
+            }
+          }
+          value=""
+        />
+      </div>
+      <div
+        style={
+          Object {
+            "display": "flex",
+            "justifyContent": "flex-end",
+          }
+        }
+      >
+        <button
+          className="sc-bwzfXH juBCEn"
+          disabled={true}
+          onClick={[Function]}
+          type="button"
+        >
+          Clear
+        </button>
+        <button
+          className="sc-bwzfXH juBCEn"
+          disabled={true}
+          type="submit"
+        >
+          Submit
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
+`;

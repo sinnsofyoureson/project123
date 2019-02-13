@@ -1,0 +1,417 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddObject container matches the snapshot 1`] = `
+<div
+  className="sc-bdVaJa iZmIoS"
+>
+  <form
+    className="sc-bxivhb hVvDUb"
+    onSubmit={[Function]}
+  >
+    <div
+      style={
+        Object {
+          "width": "400px",
+        }
+      }
+    >
+      <div
+        className="sc-ifAKCX iWNooH"
+      >
+        <label
+          className="sc-htpNat bVeTPq"
+        >
+          Номер договора
+        </label>
+        <input
+          name="contract"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onDragStart={[Function]}
+          onDrop={[Function]}
+          onFocus={[Function]}
+          style={
+            Object {
+              "background": "#080808",
+              "border": "none",
+              "borderRadius": "8px",
+              "boxShadow": "0 0 13px #000",
+              "color": "#e5e5e5",
+              "fontSize": "21px",
+              "margin": "8px",
+              "padding": "13px",
+              "width": "70%",
+            }
+          }
+          type="text"
+          value=""
+        />
+      </div>
+      <div>
+        <label
+          className="sc-htpNat bVeTPq"
+        >
+          Тип объекта
+        </label>
+        <select
+          name="type"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onDragStart={[Function]}
+          onDrop={[Function]}
+          onFocus={[Function]}
+          style={
+            Object {
+              "background": "#080808",
+              "border": "none",
+              "borderRadius": "8px",
+              "boxShadow": "0 0 13px #000",
+              "color": "#e5e5e5",
+              "cursor": "pointer",
+              "fontSize": "18px",
+              "margin": "8px 0",
+              "padding": "13px",
+              "width": "100%",
+            }
+          }
+          value=""
+        >
+          <option />
+          <option
+            value="Недвижимость"
+          >
+            Недвижимость
+          </option>
+          <option
+            value="Авто"
+          >
+            Авто
+          </option>
+        </select>
+      </div>
+      <div
+        className="sc-ifAKCX iWNooH"
+      >
+        <label
+          className="sc-htpNat bVeTPq"
+        >
+          дата заключения договора
+        </label>
+        <input
+          name="date"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onDragStart={[Function]}
+          onDrop={[Function]}
+          onFocus={[Function]}
+          style={
+            Object {
+              "background": "#080808",
+              "border": "none",
+              "borderRadius": "8px",
+              "boxShadow": "0 0 13px #000",
+              "color": "#e5e5e5",
+              "fontSize": "21px",
+              "margin": "8px",
+              "padding": "13px",
+              "width": "70%",
+            }
+          }
+          type="date"
+          value=""
+        />
+      </div>
+      <div
+        className="sc-ifAKCX iWNooH"
+      >
+        <label
+          className="sc-htpNat bVeTPq"
+        >
+          дата окончания договора
+        </label>
+        <input
+          name="expiration"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onDragStart={[Function]}
+          onDrop={[Function]}
+          onFocus={[Function]}
+          style={
+            Object {
+              "background": "#080808",
+              "border": "none",
+              "borderRadius": "8px",
+              "boxShadow": "0 0 13px #000",
+              "color": "#e5e5e5",
+              "fontSize": "21px",
+              "margin": "8px",
+              "padding": "13px",
+              "width": "70%",
+            }
+          }
+          type="date"
+          value=""
+        />
+      </div>
+      <div
+        className="sc-ifAKCX iWNooH"
+      >
+        <label
+          className="sc-htpNat bVeTPq"
+        >
+          Адресс
+        </label>
+        <input
+          name="address"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onDragStart={[Function]}
+          onDrop={[Function]}
+          onFocus={[Function]}
+          style={
+            Object {
+              "background": "#080808",
+              "border": "none",
+              "borderRadius": "8px",
+              "boxShadow": "0 0 13px #000",
+              "color": "#e5e5e5",
+              "fontSize": "21px",
+              "margin": "8px",
+              "padding": "13px",
+              "width": "70%",
+            }
+          }
+          type="text"
+          value=""
+        />
+      </div>
+      <label
+        className="sc-htpNat bVeTPq"
+      >
+        Клиент
+      </label>
+      <div>
+        <select
+          name="client"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onDragStart={[Function]}
+          onDrop={[Function]}
+          onFocus={[Function]}
+          style={
+            Object {
+              "background": "#080808",
+              "border": "none",
+              "borderRadius": "8px",
+              "boxShadow": "0 0 13px #000",
+              "color": "#e5e5e5",
+              "cursor": "pointer",
+              "fontSize": "18px",
+              "margin": "8px 0",
+              "padding": "13px",
+              "width": "100%",
+            }
+          }
+          value=""
+        >
+          <option />
+          <option
+            value="Москвин Ринат"
+          >
+            Москвин Ринат
+          </option>
+          <option
+            value="Major Tom"
+          >
+            Major Tom
+          </option>
+          <option
+            value="Гайзенберг Гавриил"
+          >
+            Гайзенберг Гавриил
+          </option>
+          <option
+            value="Макаров Тимофей"
+          >
+            Макаров Тимофей
+          </option>
+          <option
+            value="Гольдшмидт Мефодий"
+          >
+            Гольдшмидт Мефодий
+          </option>
+          <option
+            value="Пестов Руслан"
+          >
+            Пестов Руслан
+          </option>
+          <option
+            value="Перельман Сильвестр"
+          >
+            Перельман Сильвестр
+          </option>
+          <option
+            value="Шапиро Герман"
+          >
+            Шапиро Герман
+          </option>
+          <option
+            value="Хейфиц Герасим"
+          >
+            Хейфиц Герасим
+          </option>
+          <option
+            value="Цигельман Аарон"
+          >
+            Цигельман Аарон
+          </option>
+          <option
+            value="Мендель Авдий"
+          >
+            Мендель Авдий
+          </option>
+          <option
+            value="Мирон Янович"
+          >
+            Мирон Янович
+          </option>
+        </select>
+      </div>
+      <label
+        className="sc-htpNat bVeTPq"
+      >
+        список подключенных услуг
+      </label>
+      <div>
+        <select
+          name="services"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onDragStart={[Function]}
+          onDrop={[Function]}
+          onFocus={[Function]}
+          style={
+            Object {
+              "background": "#080808",
+              "border": "none",
+              "borderRadius": "8px",
+              "boxShadow": "0 0 13px #000",
+              "color": "#e5e5e5",
+              "cursor": "pointer",
+              "fontSize": "18px",
+              "margin": "8px 0",
+              "padding": "13px",
+              "width": "100%",
+            }
+          }
+          value=""
+        >
+          <option
+            className="sc-EHOje exogaX"
+          />
+          <option
+            className="sc-EHOje exogaX"
+            value="охрана, видеонаблюдение, датчик воды, датчик дыма"
+          >
+            охрана, видеонаблюдение, датчик воды, датчик дыма
+          </option>
+          <option
+            className="sc-EHOje exogaX"
+            value="охрана, видеонаблюдение, датчик воды"
+          >
+            охрана, видеонаблюдение, датчик воды
+          </option>
+          <option
+            className="sc-EHOje exogaX"
+            value="охрана, видеонаблюдение"
+          >
+            охрана, видеонаблюдение
+          </option>
+          <option
+            className="sc-EHOje exogaX"
+            value="охрана"
+          >
+            охрана
+          </option>
+        </select>
+      </div>
+      <label
+        className="sc-htpNat bVeTPq"
+      >
+        статус
+      </label>
+      <div>
+        <select
+          name="status"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onDragStart={[Function]}
+          onDrop={[Function]}
+          onFocus={[Function]}
+          style={
+            Object {
+              "background": "#080808",
+              "border": "none",
+              "borderRadius": "8px",
+              "boxShadow": "0 0 13px #000",
+              "color": "#e5e5e5",
+              "cursor": "pointer",
+              "fontSize": "18px",
+              "margin": "8px 0",
+              "padding": "13px",
+              "width": "100%",
+            }
+          }
+          value=""
+        >
+          <option
+            className="sc-EHOje exogaX"
+          />
+          <option
+            className="sc-EHOje exogaX"
+            value="ожидает оплаты"
+          >
+            ожидает оплаты
+          </option>
+          <option
+            className="sc-EHOje exogaX"
+            value="действует"
+          >
+            действует
+          </option>
+          <option
+            className="sc-EHOje exogaX"
+            value="отключен"
+          >
+            отключен
+          </option>
+        </select>
+      </div>
+      <div
+        style={
+          Object {
+            "display": "flex",
+            "justifyContent": "flex-end",
+          }
+        }
+      >
+        <button
+          className="sc-bwzfXH juBCEn"
+          disabled={true}
+          onClick={[Function]}
+          type="button"
+        >
+          Clear
+        </button>
+        <button
+          className="sc-bwzfXH juBCEn"
+          disabled={true}
+          type="submit"
+        >
+          Submit
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
+`;

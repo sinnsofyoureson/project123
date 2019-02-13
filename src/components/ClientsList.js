@@ -23,6 +23,8 @@ const ClientsList = ({ clients, onClientClick, onShowInfo }) => (
     </ul>
 )
 
+
+
 ClientsList.propTypes = {
     clients: PropTypes.arrayOf(PropTypes.shape({
         id: PropTypes.string.isRequired,
@@ -34,9 +36,9 @@ ClientsList.propTypes = {
         city: PropTypes.string,
         info: PropTypes.string,
         objects: PropTypes.string.isRequired,
-    }).isRequired).isRequired,
-    onClientClick: PropTypes.func.isRequired,
-    onShowInfo: PropTypes.func.isRequired
+    }).isRequired),
+    onClientClick: PropTypes.func,
+    onShowInfo: PropTypes.func
 }
 
 export default ClientsList

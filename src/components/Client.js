@@ -92,19 +92,19 @@ const Client = ({ showInfo, onClick, id, name, middlename, surname, phone, email
 )
 
 Client.propTypes = {
-    showInfo: PropTypes.func.isRequired,
-    onClick: PropTypes.func.isRequired,
-    id: PropTypes.string.isRequired,
-    surname: PropTypes.string.isRequired,
-    name: PropTypes.string.isRequired,
+    showInfo: PropTypes.func,
+    onClick: PropTypes.func,
+    id: PropTypes.string,
+    surname: PropTypes.string,
+    name: PropTypes.string,
     middlename: PropTypes.string,
     phone: PropTypes.string,
-    email: PropTypes.string.isRequired,
+    email: PropTypes.string,
     city: PropTypes.string,
     info: PropTypes.string,
-    objects: PropTypes.string.isRequired,
-    active: PropTypes.bool.isRequired,
-    shown: PropTypes.bool.isRequired
+    objects: PropTypes.string,
+    active: PropTypes.bool,
+    shown: PropTypes.bool
 }
 
 export default Client

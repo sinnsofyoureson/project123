@@ -1,7 +1,6 @@
 import { combineReducers } from 'redux'
 import { ADD_CLIENT, ADD_OBJECT, VisibilityFilters, SET_VISIBILITY_FILTER, TOGGLE_ACTIVE_CLIENT, TOGGLE_SHOWN_CLIENT, TOGGLE_ACTIVE_OBJECT, TOGGLE_SHOWN_OBJECT } from '../actions/actions';
 import { reducer as formReducer } from 'redux-form'
-import uuid from 'uuid';
 
 const { SHOW_ALL } = VisibilityFilters
 
@@ -19,7 +18,7 @@ function clients(state = [], action) {
         case ADD_CLIENT:
             return [
                 {
-                    id: uuid.v4(),
+                    id: '012',
                     name: action.values.name,
                     middlename: action.values.middlename,
                     surname: action.values.surname,
@@ -40,7 +39,6 @@ function clients(state = [], action) {
                         active: !clients.active
                     })
                 }
-                console.log(state)
                 return clients
             })
         case TOGGLE_SHOWN_CLIENT:
@@ -50,7 +48,6 @@ function clients(state = [], action) {
                         shown: !clients.shown
                     })
                 }
-                console.log(state)
                 return clients
             })
         default:
@@ -63,7 +60,7 @@ function objects(state = [], action) {
         case ADD_OBJECT:
             return [
                 {
-                    id: uuid.v4(),
+                    id: '005',
                     type: action.values.type,
                     address: action.values.address,
                     client: action.values.client,
@@ -84,7 +81,6 @@ function objects(state = [], action) {
                         active: !objects.active
                     })
                 }
-                console.log(state)
                 return objects
             })
         case TOGGLE_SHOWN_OBJECT:
@@ -94,7 +90,6 @@ function objects(state = [], action) {
                         shown: !objects.shown
                     })
                 }
-                console.log(state)
                 return objects
             })
         default:
